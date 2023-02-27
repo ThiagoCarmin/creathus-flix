@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.ant-upload{
+  height: 211px !important;
+  width: 100% !important;
+  /* display: flex; */
+}
+
+.containerUpload{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.uploader{
+  max-width: 170px;
+}
+
+#wrap{
+  width: 100%;
+}
+
+.imgFile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid tomato;
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: rgba(red, green, blue, 0.15);
+}
+
+.imgFile img{
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  object-fit: contain;
+  object-position: center;
+
+}
+
+.msgFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.imgFile:hover{
+  cursor: pointer;
+}
