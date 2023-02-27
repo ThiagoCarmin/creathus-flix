@@ -40,7 +40,7 @@ const SelectMovie: React.FC = () => {
         <div>
           <ImagePreview src={movie?.MovieImage.url!} />
           <Descriptions
-            title="Responsive Descriptions"
+            title="Veja seu filme aqui"
             bordered
             column={{ xxl: 1, xl: 1, lg: 1, md: 1, sm: 1, xs: 1 }}
           >
